@@ -53,7 +53,9 @@ Run the project
 npm start
 ```
 
-This is what you should see now:![server](https://user-images.githubusercontent.com/44768171/136670657-04425381-d26c-4287-b0ba-1bdc85eedac9.jpeg)
+This is what you should see now:
+
+![server](https://user-images.githubusercontent.com/44768171/136670657-04425381-d26c-4287-b0ba-1bdc85eedac9.jpeg)
 
 
 
