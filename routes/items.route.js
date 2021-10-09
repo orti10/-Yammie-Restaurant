@@ -35,4 +35,18 @@ router.post('/',async (req, res) => {
   }
 });
 
+//defining what happend with a get request to '/itmeId
+router.get('/:itemId', async (req, res) =>{
+  const itemId = req.params.itemId;
+  try {
+    //find a specific item by the id
+    const item = await Item.findById(itemId);
+    //respond to the request with the item
+    res.status(200).json(item);
+  } catch (err) {
+    //respond with the error message
+    res.status(500).json({message: err});
+  }
+});
+
 module.exports = router;

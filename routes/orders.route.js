@@ -13,6 +13,21 @@ router.get('/',async (req, res) => {
   }
 });
 
+//defining what happend with a get request to '/orderId
+router.get('/:orderId', async (req, res) =>{
+  const orderId = req.params.orderId;
+  try {
+    //find a specific order by the id
+    const order = await Order.findById(orderId).populate('items.item');
+    //respond to the request with the order
+    res.status(200).json(order);
+  } catch (err) {
+    //respond with the error message
+    res.status(500).json({message: err});
+  }
+});
+
+
 //defining what happend with a get request to 'orders/date/today'
 router.get('/date/today', async (req, res) => {
   try {
