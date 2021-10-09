@@ -20,22 +20,12 @@ Read more about [RESTful API](https://searchapparchitecture.techtarget.com/defin
 ##### The API support the next functionality:
 - Save new order
 - Get all orders from the last day
-
-
-- get All Products
-- create Product
-- get Product
-- update Product
-- delete Product
-
-- get All Orders
-- Get All Orders Last Day
-- get Order
-- create Order
-- update Order
-- delete Order
-
 - Unit tests
+
+More functionality:
+- Get all items, Create item, Get item
+- Get all orders, Create order, Get order, Deleted orders
+
 
 ### Usage
 
