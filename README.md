@@ -1,5 +1,4 @@
 
-a simple crud backend rest api
 # Order-management
 In this project I implemented a Backend API to manage a restaurant orders.
 
