@@ -29,8 +29,10 @@ More functionality:
 
 
 ### Usage
-
+Download this project to your computer
 ```sh
+git clone https://github.com/orti10/-Yammie-Restaurant.git
+cd -Yammie-Restaurant
 npm init
 ```
 
