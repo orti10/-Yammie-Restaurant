@@ -1,4 +1,7 @@
 # Order-management
+>### I worked on this assignment and wrote everything from scratch!
+>### I had no prior knowledge of this programming language and learned a lot from this project.
+
 In this project I implemented a Backend API to manage a restaurant orders.
 
 Build RESTful api - with node.js, express, MongoDB, Postman, Virtual Studio Code
