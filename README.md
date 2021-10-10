@@ -29,19 +29,19 @@ More functionality:
 
 
 ### Usage
-Download this project to your computer
+1. Download this project to your computer
 ```sh
 git clone https://github.com/orti10/-Yammie-Restaurant.git
 cd -Yammie-Restaurant
 npm init
 ```
 
-Install all dependencies
+2. Install all dependencies
 ```sh
 npm install
 ```
 
-Run the project
+3. Run the project
 ```sh
 npm start
 ```
@@ -49,3 +49,6 @@ npm start
 This is what should appear at this point:
 
 ![server](https://user-images.githubusercontent.com/44768171/136670657-04425381-d26c-4287-b0ba-1bdc85eedac9.jpeg)
+
+4. At this point you can go to Postman to your localhost: http://localhost:2000 (2000 or other, depends on where the server is listening)
+and run request to check/add information to the database
