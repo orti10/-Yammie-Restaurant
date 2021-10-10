@@ -52,3 +52,6 @@ This is what should appear at this point:
 
 4. At this point you can go to Postman to your localhost: http://localhost:2000 (2000 or other, depends on what port the server is listening to)
 and run request to check/add information to the database
+
+![postman](https://user-images.githubusercontent.com/44768171/136682854-6f2313d0-26c4-4429-a070-ec87550d1be0.jpeg)
+
