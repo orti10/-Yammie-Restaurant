@@ -50,5 +50,5 @@ This is what should appear at this point:
 
 ![server](https://user-images.githubusercontent.com/44768171/136670657-04425381-d26c-4287-b0ba-1bdc85eedac9.jpeg)
 
-4. At this point you can go to Postman to your localhost: http://localhost:2000 (2000 or other, depends on where the server is listening)
+4. At this point you can go to Postman to your localhost: http://localhost:2000 (2000 or other, depends on what port the server is listening to)
 and run request to check/add information to the database
